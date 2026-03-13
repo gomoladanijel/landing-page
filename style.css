@@ -67,14 +67,18 @@ body {
     font-size: 18px;
 }
 
-.action-btn {
+.action-btn,
+.cta-btn {
     width: 100px;
     padding: 4px 8px;
     background-color: #34842c;
     color: #f9faf8;
     cursor: pointer;
-    border: none;
     border-radius: 4px;
+}
+
+.action-btn {
+    border: none;
 }
 
 .action-btn:hover {
@@ -166,11 +170,6 @@ body {
 }
 
 .cta-btn {
-    width: 100px;
-    padding: 4px 8px;
-    background-color: #34842c;
-    color: #f9faf8;
-    cursor: pointer;
     border: 2px solid #f9faf8;
     border-radius: 4px;
 }
